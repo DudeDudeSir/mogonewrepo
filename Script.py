@@ -1,22 +1,29 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂
+
+⎆𝐌𝐲 𝐍𝐚𝐦𝐞 𝐢𝐬 𝗚𝘄𝗲𝗻 𝗦𝘁𝗮𝗰𝘆💋
+
+⎆𝐖𝐨𝐫𝐤𝐢𝐧𝐠 𝐖𝐢𝐭𝐡 <a href= https://t.me/moviecenter225><b>MOVIE CENTER...</b></a>
+
+➪ 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝  𝐁𝐲 :<a href= https://t.me/dude_tg><I>Rahul</I></a>"""
+
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>🥱 My Name : {}
-🕵‍♂ Developer : <a href='https://t.me/MichaelAnjoottiTG'>🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆</a>
-📚 Library : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-🖥 Language : 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-🎪 Data Base : 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱</b>"""
-
-
+    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href= https://t.me/dude_tg>✯Rahul✯</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈:  𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
+✯ My Group:<B>♻️@moviecenter225</B>"""
     SOURCE_TXT = """<b>NOTE:</b>
-<b>𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖶𝖺𝗌 𝖬𝖺𝗄𝖾𝖽 𝖳𝖺𝗄𝗂𝗇𝗀 𝖲𝗈𝗆𝖺𝗇𝗒 𝖱𝖾𝗉𝗈𝗌 𝖮𝖿 𝖮𝗍𝗁𝖾𝗋 𝖪𝗂𝗇𝖽 𝖡𝗈𝗍𝗌
-𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤 ~ 𝖭𝖮𝖳 𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 𝖱𝖨𝖦𝖧𝖳 𝖭𝖮𝖶
-𝖮𝖳𝖧𝖤𝖱 𝖪𝖨𝖭𝖣 𝖡𝖮𝖳𝖲:
-𝖠𝖴𝖳𝖮 𝖥𝖨𝖫𝖳𝖤𝖱 : <a href=https://github.com/EvamariaTG/EvaMaria>𝖤𝗏𝖺 𝖬𝖺𝗋𝗂𝖺</a>
-𝖲𝖮𝖭𝖦 :  <a href=https://github.com/AsmSafone/RadioPlayerV2>𝖠𝗌𝗆𝖲𝖺𝖿𝗈𝗇𝖾</a>
-𝖥𝖨𝖫𝖳𝖤𝖱 : <a href=https://github.com/TroJanzHEX/Unlimited-Filter-Bot>𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍</a></b>"""
+-  sorry closed source project. 
+- 🕵‍♂Developer -<a href= https://t.me/RahulrsParu><I>✯Rahul✯</I></a>
+
+<b>DEVS:</b>
+- <a href=https://t.me/dude_tg>✯Rahul✯</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
